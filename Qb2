@@ -1,0 +1,8 @@
+local options = {
+   function() loadstring(game:HttpGet("https://raw.githubusercontent.com/SecretBaby1921/Updated-anime/main/Coems",true))() end,
+   function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Important/main/Coems", true))() end
+}
+
+local randomNum = math.random(1, #options)
+
+options[randomNum]()
